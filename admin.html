@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Front Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a{
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .green {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .red {
+            background-color: #f44336; /* Red */
+        }
+        table{
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>St Alphonsus Primary School Admin</h1>
+    </header>
+    <nav>
+        <a href="main.html">Home</a>
+        <a href="#about">About Us</a>
+        <a href="login.html">Login</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Manage Students</h2>
+            <a href="addstudent.html" class="btn green">Add Student</a>
+            <a href="removestudent.html" class="btn red">Remove Student</a>
+        <section>
+            <h2>Student List</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Year</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>John Doe</td>
+                        <td>5</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Jane Smith</td>
+                        <td>6</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Emily Johnson</td>
+                        <td>5</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Hazel Morley</td>
+                        <td>4</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>Rowan Blake</td>
+                        <td>6</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>006</td>
+                        <td>Oliver Finch</td>
+                        <td>4</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>007</td>
+                        <td>Jude Winslow</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>008</td>
+                        <td>Phoebe Ashcroft</td>
+                        <td>2</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 St Alphonsus Primary School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
